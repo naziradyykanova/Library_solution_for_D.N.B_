@@ -1,10 +1,8 @@
 
-
-
 CREATE TABLE [dbo].[Авторы книг](
 	[Код записи] [int] NOT NULL,
 	[Шифр книги] [int] NULL,
-	[Код автора][int]  NULL,
+	[Код автора] [int] NULL,
  CONSTRAINT [PK_Код Код записи] PRIMARY KEY CLUSTERED 
 (
 	[Код записи] ASC
