@@ -1,1 +1,5 @@
 ﻿17.png
+app *
+Lib/Lib/bin/*
+Lib/Lib/lib/*
+Lib/Lib/obj/*

@@ -4,6 +4,8 @@ CREATE TABLE [dbo].[Информация о читателе](
 	[Имя] [nvarchar] (50) NULL,
 	[Отчество] [nvarchar] (70) NULL,
 	[Телефон] [nvarchar] (9) NULL,
+	[Дата рождения] [date] NULL,
+	[Лимит] [int] NULL,
 	[Адрес] [nvarchar] (70) NULL,
  CONSTRAINT [PK_Код Номер билета] PRIMARY KEY CLUSTERED 
 (
